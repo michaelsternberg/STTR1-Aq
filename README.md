@@ -2,7 +2,7 @@ STTR1-Aq
 ========
 Overview
 --------
-STTR1-Aq is a Mattel/Radofin Aquarius port of the 1972 Star Trek text game STTR1, written by Mike Mayfield for HP2000C Time-Shared BASIC and published in Hewlett Packard's Contributed Library. The target platform is an Aquarius home computer with 16K RAM memory cartridge (20K total) and Microsoft BASIC S2 in ROM.
+STTR1-Aq is a (Mattel/Radofin Aquarius port of the 1972 Star Trek text game STTR1, written by Mike Mayfield for HP2000C Time-Shared BASIC and published in Hewlett Packard's Contributed Library. The target platform is an [Aquarius home computer](https://en.wikipedia.org/wiki/Mattel_Aquarius) with a 16K RAM memory cartridge (20K total) and Microsoft BASIC S2 in ROM.
 
 This project was part of [Retrochallenge 2016/01](http://www.wickensonline.co.uk/retrochallenge-2012sc/rc201601-entrants-list/). My Retrochallenge 2016/01 web log begins  [here](http://16kram.com/2015/12/02/retrochallenge-201601-prologue-2/).
 
@@ -27,8 +27,8 @@ How to Run
     4. At the BASIC prompt, type `RUN`
 
    or
-    1. Copy/Paste the contents of `sttr1-aq.bas` into Virual Aquarius using the menu item `Util`-->`Paste`.
 
+    1. Copy/Paste the contents of `sttr1-aq.bas` into Virual Aquarius using the menu item `Util`-->`Paste`.
 
   * To run this game on a real Aquarius, use the Virtual Aquarius tool CAQ2WAV.EXE to convert `sttr1-aq.caq` to a WAV file. The WAV file can be transferred to a magnetic cassette tape and loaded using the Aquarius Data Recorder.
 
