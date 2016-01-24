@@ -2,7 +2,7 @@ STTR1-Aq
 ========
 Overview
 --------
-STTR1-Aq is a (Mattel/Radofin Aquarius port of the 1972 Star Trek text game STTR1, written by Mike Mayfield for HP2000C Time-Shared BASIC and published in Hewlett Packard's Contributed Library. The target platform is an [Aquarius home computer](https://en.wikipedia.org/wiki/Mattel_Aquarius) with a 16K RAM memory cartridge (20K total) and Microsoft BASIC S2 in ROM.
+STTR1-Aq is a Mattel/Radofin Aquarius port of the 1972 Star Trek text game STTR1, written by Mike Mayfield for the HP2000C Time-Shared BASIC system and published in Hewlett Packard's Contributed Library. The target platform is an [Aquarius home computer](https://en.wikipedia.org/wiki/Mattel_Aquarius) with a 16K RAM memory cartridge (20K total) and Microsoft BASIC S2 in ROM.
 
 This project was part of [Retrochallenge 2016/01](http://www.wickensonline.co.uk/retrochallenge-2012sc/rc201601-entrants-list/). My Retrochallenge 2016/01 web log begins  [here](http://16kram.com/2015/12/02/retrochallenge-201601-prologue-2/).
 
@@ -18,7 +18,7 @@ How to Run
 
   `mess aquarius -ramsize 20K -cart sttr1-aq.bin`
 
-  Note:  I have noticed some odd behavior when running with this configuration.
+    Note:  I have noticed some odd behaviour when running with the MESS configuration.
 
   * To run this game in the Virtual Aquarius emulator for Windows (or WINE on Linux or OSX).
     1. In the Virutal Aquarius menubar, select `Configure`-->`Memory` and ensure the 16K or 32K option is enabled.
@@ -28,13 +28,13 @@ How to Run
 
    or
 
-    1. Copy/Paste the contents of `sttr1-aq.bas` into Virual Aquarius using the menu item `Util`-->`Paste`.
+    1. Copy/Paste the contents of `sttr1-aq.bas` into Virtual Aquarius using the menu item `Util`-->`Paste`.
 
   * To run this game on a real Aquarius, use the Virtual Aquarius tool CAQ2WAV.EXE to convert `sttr1-aq.caq` to a WAV file. The WAV file can be transferred to a magnetic cassette tape and loaded using the Aquarius Data Recorder.
 
 Original Source Listing
 -----------------------
-The original HP Time-Shared BASIC listing on which this project was derived can be found [here](http://web.archive.org/web/20150215080553/http://www.dunnington.u-net.com/public/startrek/STTR1).
+The original HP Time-Shared BASIC listing on which this project was derived can be found at http://web.archive.org/web/20150215080553/http://www.dunnington.u-net.com/public/startrek/STTR1.
 
 Modifications from Original
 ---------------------------
